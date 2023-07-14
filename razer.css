@@ -1,0 +1,74 @@
+body {
+  background-image: url(foods5.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+ 
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #00cc00;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #009900;
+}
+
+.signup {
+  color: #000;
+}
+
+.signup a {
+  color: #00cc00;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
